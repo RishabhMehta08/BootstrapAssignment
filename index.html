@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>HARRY POTTER</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><strong>HARRY POTTER</strong></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="#">Home</a>
+							</li>
+
+							<li>
+								<a href="#">News</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Books <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Philosopher's Stone</a>
+									</li>
+									
+									<li>
+										<a href="#">Chamber Of Secrets</a>
+									</li>
+									
+									<li>
+										<a href="#">Prisoner Of Azkaban</a>
+									</li>
+			
+									<li>
+										<a href="#">Goblet Of Fire</a>
+									</li>
+									
+									<li>
+										<a href="#">Order Of Pheonix</a>
+									</li>
+
+									<li>
+										<a href="#">Half Blood Prince</a>
+									</li>
+									
+									<li>
+										<a href="#">Deathly Hallows</a> 	
+								</ul><!-- end dropdown-menu -->
+							</li>
+
+							<li>
+								<a href="#">Sorting</a>
+							</li>
+
+							<li>
+								<a href="#">Features</a>
+							</li>
+						</ul>
+						
+						<ul class="nav navbar-nav pull-right">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"></span> My Account </a>
+							</li>
+
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			
+			<br> <br>
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Harry Potter</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/harry.jpg" alt="Harry Potter" class="img-circle img-responsive">
+						
+						<p>Harry Potter is a fictional character in J. K. Rowling's Harry Potter series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone as the best friend of Ron Weasely and Hermione Granger</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Harry_Potter_(character)" target="_blank" class="btn btn-warning btn-block"><strong>Daniel Radcliffe</strong></a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Hermione Granger</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/hermione.jpg" alt="Hermione Granger" class="img-circle img-responsive">
+						
+						<p>Hermione Granger is a fictional character in J. K. Rowling's Harry Potter series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone as the best friend of Harry Potter and Ron Weasely</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Hermione_Granger" target="_blank" class="btn btn-danger btn-block"><strong>Emma Watson</strong></a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Ronald Weasely</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/ron.jpg" alt="Ron Weasley" class="img-circle img-responsive">
+						
+						<p>Ronald Bilius "Ron" Weasley is a fictional character in J. K. Rowling's Harry Potter series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone as the best friend of Harry Potter and Hermione Granger</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Ron_Weasley" target="_blank" class="btn btn-info btn-block"><strong>Rupert Grint</strong></a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			
+			
+			<div class="row" id="moreInfo">
+				<div class="col-12">
+					<h3>Harry Potter Series</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Philosopher's Stone</a></li>
+							<li><a href="#tab2" data-toggle="tab">Chamber Of Secrets</a></li>
+							<li><a href="#tab3" data-toggle="tab">Prisoner Of Azkaban</a></li>
+							<li><a href="#tab4" data-toggle="tab">Goblet Of Fire</a></li>
+							<li><a href="#tab5" data-toggle="tab">Order Of Pheonix</a></li>
+							<li><a href="#tab6" data-toggle="tab">Half Blood Prince</a></li>
+							<li><a href="#tab7" data-toggle="tab">Deathly Hallows</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<br>
+
+								<img src="images/hp1.jpg" class="thumbnail pull-left" alt="Philosopher's Stone">
+								<p>Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series and J. K. Rowling's debut novel, first published in 1997 by Bloomsbury. It was published in the United States as Harry Potter and the Sorcerer's Stone by Scholastic Corporation in 1998. The plot follows Harry Potter, a young wizard who discovers his magical heritage as he makes close friends and a few enemies in his first year at the Hogwarts School of Witchcraft and Wizardry. With the help of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.</p>
+
+								<p>The novel won most of the British book awards that were judged by children and other awards in the US. The book reached the top of the New York Times list of best-selling fiction in August 1999 and stayed near the top of that list for much of 1999 and 2000. It has been translated into at least seventy three other languages and has been made into a feature-length film of the same name, as have all six of its sequels.</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+
+								<img src="images/hp2.jpg" class="thumbnail pull-left" alt="Chamber Of Secrets">
+								
+								<p>Harry Potter and the Chamber of Secrets is the second novel in the Harry Potter series, written by J. K. Rowling. The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the "Chamber of Secrets" has been opened and that the "Heir of Slytherin" would kill all pupils who do not come from all-magical families. These threats are found after attacks which leave residents of the school "petrified" (frozen like stone). Throughout the year, Harry and his friends Ron and Hermione investigate the attacks.</p>
+
+								<p>The book was published in the United Kingdom on July 2, 1998 by Bloomsbury and in the United States on June 2, 1999 by Scholastic Inc. Although Rowling found it difficult to finish the book, it won high praise and awards from critics, young readers and the book industry, although some critics thought the story was perhaps too frightening for younger children. Much like with other novels in the series, Harry Potter and the Chamber of Secrets triggered religious debates; some religious authorities have condemned its use of magical themes, while others have praised its emphasis on self-sacrifice and on the way in which a person's character is the result of the person's choices.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab3">
+								<br>
+
+								<img src="images/hp3.jpg" class="thumbnail pull-left" alt="Prisoner Of Azkaban">
+								<p>Harry Potter and the Prisoner of Azkaban is the third novel in the Harry Potter series, written by J. K. Rowling. The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban who they believe is one of Lord Voldemort's old allies.</p>
+
+								<p>The book was published in the United Kingdom on 8 July 1999 by Bloomsbury and in the United States on 8 September 1999 by Scholastic Inc. Rowling found the book easy to write, finishing it just a year after she had begun writing it. The book sold 68,000 copies in just three days after its release in the United Kingdom and since has sold over three million in the country. The book won the 1999 Whitbread Children's Book Award, the Bram Stoker Award, the 2000 Locus Award for Best Fantasy Novel, and was short-listed for other awards, including the Hugo.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab4">
+								<br>
+
+								<img src="images/hp4.jpg" class="thumbnail pull-left" alt="Goblet Of Fire">
+								<p>Harry Potter and the Goblet of Fire is the fourth novel in the Harry Potter series, written by British author J. K. Rowling. It follows Harry Potter, a wizard in his fourth year at Hogwarts School of Witchcraft and Wizardry and the mystery surrounding the entry of Harry's name into the Triwizard Tournament, in which he is forced to compete.</p>
+
+								<p>The book was published in the United Kingdom by Bloomsbury and in the United States by Scholastic; in both countries the release date was 8 July 2000, the first time a book in the series was published in both countries at the same time. The novel won a Hugo Award, the only Harry Potter novel to do so, in 2001. The book was made into a film, which was released worldwide on 18 November 2005, and a video game by Electronic Arts.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab5">
+								<br>
+
+								<img src="images/hp5.jpg" class="thumbnail pull-left" alt="Order Of Phoenix">
+								<p>Harry Potter and the Order of the Phoenix is the fifth and antepenultimate novel in the Harry Potter series, written by J. K. Rowling. It follows Harry Potter's struggles through his fifth year at Hogwarts School of Witchcraft and Wizardry, including the surreptitious return of the antagonist Lord Voldemort, O.W.L. exams, and an obstructive Ministry of Magic. The novel was published on 21 June 2003 by Bloomsbury in the United Kingdom, Scholastic in the United States, and Raincoast in Canada. Five million copies were sold in the first 24 hours of publication. It is the longest book of the series.</p>
+
+								<p>Harry Potter and the Order of the Phoenix has won several awards, including being named an American Library Association Best Book for Young Adults in 2003. The book has also been made into a film, which was released in 2007, and into a video game by Electronic Arts.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab6">
+								<br>
+
+								<img src="images/hp6.jpg" class="thumbnail pull-left" alt="Half Blood Prince">
+								<p>Harry Potter and the Half-Blood Prince is the sixth and penultimate novel in the Harry Potter series, written by British author J. K. Rowling. Set during protagonist Harry Potter's sixth year at Hogwarts, the novel explores the past of Harry's nemesis, Lord Voldemort, and Harry's preparations for the final battle against Voldemort alongside his headmaster and mentor Albus Dumbledore.</p>
+
+								<p>The book was published in the United Kingdom by Bloomsbury and in the United States by Scholastic on 16 July 2005, as well as in several other countries. It sold nine million copies in the first 24 hours after its release, a record at the time which was eventually broken by its sequel, Harry Potter and the Deathly Hallows. There were many controversies before and after it was published, including the right to read the copies delivered prior to the release date in Canada. Reception to the novel was generally positive and it won several awards and honours, including the 2006 British Book of the Year award.</p>
+							</div><!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab7">
+								<br>
+
+								<img src="images/hp7.jpg" class="thumbnail pull-left" alt="Deathly Hallows">
+								<p>Harry Potter and the Deathly Hallows is the seventh and final novel of the Harry Potter series, written by British author J. K. Rowling. The book was released on 21 July 2007, ten years after publication of Harry Potter and the Philosopher's Stone (1997), by Bloomsbury Publishing in the United Kingdom, in the United States by Scholastic, and in Canada by Raincoast Books, ending the series that began in 1997 with the publication of Harry Potter and the Philosopher's Stone. The novel chronicles the events directly following Harry Potter and the Half-Blood Prince (2005), and the final confrontation between the wizards Harry Potter and Lord Voldemort, as well as revealing the previously concealed back story of several main characters. The title of the book refers to three mythical objects featured in the story, collectively known as the "Deathly Hallows"—an unbeatable wand, a stone to bring the dead to life, and a cloak of invisibility.</p>
+
+								<p>Before its release, Bloomsbury reportedly spent £10 million to keep the book's contents safe before its release date. American publisher Arthur Levine refused any copies of the novel to be released in advance for press review, although two reviews were submitted early. Shortly before release, photos of all 759 pages of the U.S. edition were leaked and transcribed, leading Scholastic to look for the source that had leaked it.</p>
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+			</div>
+
+			<div class="row" id="moreInfo">	
+				<div class="col-12">
+					<h3>Other Books</h3>
+
+					<div class="list-group">
+						
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">The Cursed Child</h4>
+							<p class="list-group-item-text">Harry Potter and the Cursed Child is a two-part stage play written by Jack Thorne based on an original new story by Thorne, J. K. Rowling and John Tiffany. Previews of the play began at the Palace Theatre, London on 7 June 2016, and it officially premiered on 30 July 2016.</p>
+						</a>
+						<br>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Fantastic Beasts and Where To Find Them</h4>
+							<p class="list-group-item-text">Fantastic Beasts and Where to Find Them is a 2001 book written by British author J. K. Rowling (under the pen name of the fictitious author Newt Scamander) about the magical creatures in the Harry Potter universe.</p>
+						</a>
+					</div><!-- list-group -->					
+				</div><!-- end col-12 -->
+			</div><!-- end moreInfo -->
+			
+			
+		</div><!-- end container -->
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-sm-6">
+						<h6>About Us</h6>
+							<p>Materials from the Harry Potter series of films and from the film Fantastic Beasts And Where To Find Them are courtesy of Warner Bros. Entertainment. J.K Rowling’s Wizarding World Publishing Rights © J.K. Rowling. Parry Potter © HARRY POTTER Limited. J.K. ROWLING’S WIZARDING WORLD is a trademark of J.K. Rowling and Warner Bros. Entertainment Inc. Characters, names and related indicia from J.K Rowling’s Wizarding World are ™ and © of Warner Bros. Entertainment Inc. All rights reserved.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Others</h6>
+						<ul class="unstyled">
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">Privacy & Cookie Policy</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
